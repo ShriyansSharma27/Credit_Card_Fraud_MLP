@@ -24,9 +24,10 @@ The model was optimized through experiments on batch sizes and layer depth.
 
 ## Methodology
 1.  **Preprocessing:** Robust scaling of PCA components and stratified train-test splitting (70/30).
-2.  **Imbalance Handling:** * SMOTE increases fraud instances to a 5% ratio.
+2.  **Imbalance Handling:**
+    * SMOTE increases fraud instances to a 5% ratio.
     * Random Undersampling adjusts the final ratio to 10% to maintain a realistic distribution.
-3.  **Optimization:** Conducted batch size trials (64, 128, 256) and architectural sweeps to find the most efficient gradient descent path.
+4.  **Optimization:** Conducted batch size trials (64, 128, 256) and architectural sweeps to find the most efficient gradient descent path.
 
 ## Installation & Usage
 1. Clone the repository:
