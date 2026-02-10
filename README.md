@@ -35,7 +35,7 @@ The model was optimized through experiments on batch sizes and layer depth.
 ## Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/Credit-Card-Fraud-Detection.git](https://github.com/your-username/Credit-Card-Fraud-Detection.git)
+   git clone [https://github.com/ShriyansSharma27/Credit_Card_Fraud_MLP.git]
 2. Install dependencies:
    pip install -r requirements.txt
 3. Place creditcard.csv in the root directory and execute:
