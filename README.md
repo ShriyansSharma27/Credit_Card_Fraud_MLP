@@ -3,6 +3,9 @@
 ## Project Overview
 This project implements a Multi-Layered Perceptron (MLP) to detect fraudulent credit card transactions. Given the extreme class imbalance (approx. 0.17% fraud), the project utilizes a **Hybrid Sampling** approach and a **Binary Focal Loss** function to maximize financial recovery and minimize False Positive Rates (FPR).
 
+## Dataset
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 ### Key Features
 * **Hybrid Resampling:** Combines constrained SMOTE ($k=3$) with Random Undersampling (RUS) to preserve majority class structure while boosting minority signal.
 * **Neural Network Architecture:** Multi-layered perceptron with L2 regularization and Adam optimizer.
@@ -33,6 +36,10 @@ The model was optimized through experiments on batch sizes and layer depth.
 1. Clone the repository:
    ```bash
    git clone [https://github.com/your-username/Credit-Card-Fraud-Detection.git](https://github.com/your-username/Credit-Card-Fraud-Detection.git)
+2. Install dependencies:
+   pip install -r requirements.txt
+3. Place creditcard.csv in the root directory and execute:
+   python src/fraud_detection_model.py
 
 ## Author
   - Shriyans Sharma
